@@ -11,5 +11,5 @@ addons:
       secure: "6331b7b571d44afd10b5bdc9497e0e2318105c57" # encrypted value of your token
 
 script:
-  #- ant build
-  - sonar-scanner
+  - ant build
+  #- sonar-scanner
