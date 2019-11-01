@@ -1,14 +1,16 @@
+dist: trusty
+
 language: java
 
 jdk:
-   - oraclejdk13
-   - openjdk13
+   #- oraclejdk9
+   - openjdk8
 
 addons:
   sonarcloud:
     organization: "akatsuki"
     token:
-      secure: "c6a5a0d3b20c0678cf6a02564a196c6ac64f7b5b" # encrypted value of your token
+      secure: "4565c9d792f657ac32420264ead8cad7c05a741e" # encrypted value of your token
 
 script:
   - ant build
