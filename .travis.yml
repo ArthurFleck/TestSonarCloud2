@@ -8,9 +8,9 @@ jdk:
 
 addons:
   sonarcloud:
-    organization: "akatsuki"
+    organization: akatsuki
     token:
-      secure: "4565c9d792f657ac32420264ead8cad7c05a741e" # encrypted value of your token
+      secure: 4565c9d792f657ac32420264ead8cad7c05a741e # encrypted value of your token
 
 script:
   - ant build
